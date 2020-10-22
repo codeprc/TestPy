@@ -15,7 +15,7 @@ steps:
 
 - task: SSH@0
   inputs:
-    sshEndpoint: 'Test Conn'
+    sshEndpoint: 'TestPY'
     runOptions: 'commands'
     commands: 'echo "HEllo"'
     readyTimeout: '20000'
